@@ -1,0 +1,34 @@
+{
+  "name": "glider88/php-trampoline",
+  "description": "Trampoline realization for php",
+  "keywords": ["PHP", "Trampoline"],
+  "homepage": "https://github.com/Glider88/php-trampoline",
+  "type": "library",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sakharov Pavel",
+      "email": "s.p.alekseevich@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^8.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^11.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Glider88\\": "src/"
+    },
+    "files": [
+      "src/Trampoline/functions.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\Glider88\\": "tests/"
+    }
+  }
+}
