@@ -42,4 +42,4 @@ $this->assertEquals(7, run(ack(2, 2)));
 
 ```
 
-more examples in *test/TrampolineTest.php*
+> more examples in **test/TrampolineTest.php**
