@@ -28,7 +28,7 @@ function ackermann(int $n, int $m): Trampoline
     }
 
     if ($m === 0) {
-        return suspend(static fn() => ack($n - 1, 1));
+        return suspend(static fn() => ackermann($n - 1, 1));
     }
 
     return
